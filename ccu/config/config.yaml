@@ -1,0 +1,3 @@
+model_path: models/roberta-zh-sensible
+saved_model_file: models/trained/model.pt
+#cpu: True
