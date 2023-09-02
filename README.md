@@ -31,14 +31,14 @@ Token: d5d5248841ed1526a081dc9c29ad5a0e5f58a05c
 
 Add the following into POST request header
 ```
-'Authorization: Token d5d5248841ed1526a081dc9c29ad5a0e5f58a05c'
+'Authorization: Token xxxxxxx'
 ```
 
 Example
 ```python
 import requests
 url_api = "http://localhost:8000/ccu/norm-detect"
-headers = { "Authorization" : "Token d5d5248841ed1526a081dc9c29ad5a0e5f58a05c"}
+headers = { "Authorization" : "Token xxxxxxx"}
 input_data = {
     "uuid": "3d43ee00-70e3-4a16-84ae-4f43e9a3c8d3",
     "datetime": "2023-03-01 22:37:35.518093",
